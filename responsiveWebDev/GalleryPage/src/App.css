@@ -1,0 +1,31 @@
+.App {
+  margin-top: 3rem;
+  max-width: 900px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: lightslategray;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+@media (max-width: 50em) {
+
+  footer {
+    bottom: initial;
+    position: absolute;
+    min-width: 97%;
+    /* bottom: 0; */
+  }
+}
+
+@media (max-width: 40em) {
+
+  footer {
+    bottom: 0;
+  }
+}

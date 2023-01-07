@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    /* Remove scrollbar space */
+    width: 0;
+    /* Optional: just make scrollbar invisible */
+    background: transparent;
+}
+
+:root {
+    font-family: 'Poppins', sans-serif;
+}

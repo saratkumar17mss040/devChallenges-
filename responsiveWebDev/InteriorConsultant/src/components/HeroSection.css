@@ -1,0 +1,100 @@
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: center;
+    /* max-width: 91%; */
+    margin: auto;
+    margin-top: 8rem;
+    column-gap: 2rem;
+}
+
+.heroInfo {
+    align-self: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.heroInfoTitle {
+    margin-bottom: 2rem;
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+
+.heroImg {
+    max-width: 100%;
+}
+
+.heroImgSection {
+    position: relative;
+    margin-right: 3rem;
+}
+
+.heroCard {
+    /* max-width: min-content; */
+    /* margin-: 0; */
+    position: absolute;
+    top: 70%;
+    margin: 0;
+    max-width: 25rem;
+    left: 8%;
+    background-color: #181719;
+    color: #fff;
+}
+
+.heroCardProfile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.heroCardProfileInfo {
+    margin-left: 1rem;
+    margin-top: 1.25rem;
+}
+
+.heroCardProfileInfo p + p {
+    margin-top: 0.5rem;
+}
+
+.heroCardProfileInfo p:nth-child(2) {
+    color: #828282;
+}
+
+.heroCardProfileImg {
+    border-radius: 50%;
+    max-width: 5rem;
+}
+
+.heroCardInner {
+    display: flex;
+    padding: 1.5rem;
+}
+
+.heroCardFooter {
+    font-size: 1.5rem;
+    margin-left: 1.75rem;
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.heroMoreTxt {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+
+@media (max-width: 50em) {
+
+     .heroSection {
+        flex-direction: column;
+     }
+
+     .heroImg {
+        margin: 2rem;
+     }
+
+}

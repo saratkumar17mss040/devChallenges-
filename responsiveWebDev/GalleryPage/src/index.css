@@ -1,0 +1,19 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+}

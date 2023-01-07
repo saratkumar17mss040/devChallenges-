@@ -1,0 +1,71 @@
+.heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.txtBold {
+    font-weight: bold;
+    font-size: 22px;
+    max-width: max-content;
+    margin: 0;
+}
+
+.heroImg {
+    max-width: 80%;
+}
+
+.flexItem {
+    flex: 1;
+}
+
+.flexItemAlignSelfStart {
+    align-self: flex-start;
+}
+
+.heroTitle {
+    margin-right: 1rem;
+    font-size: 4rem;
+    /* max-width: 80%; */
+}
+
+.heroTxt {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 60%;
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    background-color: #333333;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media(max-width: 50em) {
+
+    .heroSection {
+        flex-direction: column;
+        max-width: 67%;
+    }
+
+    .heroImg {
+        max-width: 100%;
+    }
+
+    .flexItem1 {
+        max-width: 70%;
+    }
+
+    .heroTxt {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,134 @@
+::-webkit-scrollbar {
+    /* Remove scrollbar space */
+    width: 0;
+    /* Optional: just make scrollbar invisible */
+    background: transparent;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.teamIntroSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 8rem;
+    padding: 2rem;
+    gap: 12rem;
+    font-size: 1rem;
+}
+
+.teamIntroTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    min-width: 15rem;
+}
+
+.teamWho {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.teamInfo {
+    /* max-width: 50%; */
+}
+
+.album:nth-child(2) {
+    margin-top: 6rem;
+}
+
+.album:nth-child(5) {
+    margin-top: 6rem;
+}
+
+.teamAlbumsSection {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem;
+    padding: 2rem;
+    row-gap: 4rem;
+}
+
+.teamAlbumsSection>* {
+    min-height: 25rem;
+}
+
+.album {
+    position: relative;
+}
+
+.albumImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+.role {
+    writing-mode: vertical-rl;
+    display: inline-block;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding-left: 0.25rem;
+    top: 0px;
+    right: 16%;
+}
+
+@media (max-width: 50em) {
+
+    .teamIntroSection {
+        flex-direction: column;
+        padding: 0;
+        gap: 6rem;
+    }
+
+    .teamIntroTitle {
+        font-size: 2.5rem;
+    }
+
+    .teamIntroSection div:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    .teamAlbumsSection {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 0;
+    }
+
+    .teamAlbumsSection>* {
+        min-height: 15rem;
+    }
+
+    .album:nth-child(2) {
+        margin-top: 6rem;
+    }
+
+    .album:nth-child(4) {
+        margin-top: 6rem;
+    }
+
+    .album:nth-child(5) {
+        margin-top: 0;
+    }
+
+    .album:nth-child(6) {
+        margin-top: 6rem;
+    }
+
+}

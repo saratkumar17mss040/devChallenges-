@@ -1,0 +1,24 @@
+.userImgSection {
+    display: grid;
+    margin: 1rem;
+    gap: 1.25rem;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridItem {
+    border-radius: 1rem;
+    max-width: 100%;
+}
+
+.gridItem2 {
+    grid-column-start: span 2;
+}
+
+.gridItem3 {
+    grid-column-start: span 2;
+}
+
+.gridItem4 {
+    grid-row-start: span 2;
+}
