@@ -1,0 +1,67 @@
+.hero-contact {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--clr-gray-3);
+    font-size: 0.8rem;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.email-input-container {
+    margin-bottom: 1rem;
+}
+
+.email-input-wrapper {
+    position: relative;
+}
+
+.join-btn {
+    background-color: var(--clr-blue);
+    padding: 0.45rem 0.75rem;
+    border: none;
+    border-radius: 0.20rem;
+    color: white;
+    position: absolute;
+    top: 0.25rem;
+    /* left: 8.5rem; */
+    right: 6px;
+    cursor: pointer;
+}
+
+.email-input {
+    padding: 0.75rem;
+    border: none;
+    background-color: var(--clr-gray-6);
+    border-radius: 0.20rem;
+    /* width: 100%; */
+    /* position: relative; */
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.email-input-container {
+    margin-left: 4rem;
+}
+
+.ml-0 {
+    margin-left: 0 !important;
+}
+
+
+@media (max-width: 35em) {
+
+
+    /* .email-input-container {
+        margin-left: 1rem;
+    } */
+
+    .email-input-container {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+}

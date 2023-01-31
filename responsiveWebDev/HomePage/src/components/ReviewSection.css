@@ -1,0 +1,51 @@
+.review-section-flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.review-info {
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 2rem;
+    max-width: 48rem;
+}
+
+.review-user div:first-child {
+    width: 25%;
+    width: 7%;
+}
+
+.review-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.review-title {
+    font-size: 1.25rem;
+}
+
+.review-user {
+    display: flex;
+    column-gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+.review-user img {
+    width: 100%;
+    border-radius: 0.75rem;
+}
+
+.review-user div:nth-child(2) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 55em) {
+
+    .review-user div:first-child {
+        width: 25%;
+    }
+}

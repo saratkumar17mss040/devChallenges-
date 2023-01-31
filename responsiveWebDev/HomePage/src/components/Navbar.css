@@ -1,0 +1,44 @@
+#home-page-nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--clr-gray-1);
+}
+
+.home-page-nav-ul {
+    list-style: none;
+    display: flex;
+}
+
+.home-page-nav-ul a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--clr-gray-1);
+}
+
+.home-page-nav-ul li+li {
+    margin-left: 1rem;
+}
+
+.ham-mobile-icon {
+    display: none;
+}
+
+
+@media (max-width: 35em) {
+
+
+    .home-page-nav-ul li {
+        display: none;
+    }
+
+    .ham-mobile-icon {
+        display: block;
+    }
+
+    .ham-mobile-icon div {
+        min-width: 1.25rem;
+        min-height: 2.5px;
+        background-color: var(--clr-gray-1);
+        margin: 2px 0;
+    }
+}

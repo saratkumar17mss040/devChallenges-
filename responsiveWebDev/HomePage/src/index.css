@@ -1,0 +1,38 @@
+/* Initial CSS Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-clr: #333333;
+    --clr-gray-1: #333333;
+    --clr-gray-2: #4F4F4F;
+    --clr-gray-3: #828282;
+    --clr-gray-6: #F2F2F2;
+    --clr-blue: #2D9CDB;
+    --clr-green: #27AE60;
+    --clr-red: #EB5757;
+    --footer-bg-clr: #100E1D;
+}
+
+.App {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem; */
+    color: var(--clr-gray-1);
+}

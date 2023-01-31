@@ -1,0 +1,59 @@
+.hero-img-section {
+    margin-top: 4rem;
+}
+
+.hero-quote,
+.hero-tag-line,
+.hero-info {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+.hero-img {
+    max-width: 100%;
+    width: 100vw;
+    border-radius: 1rem;
+}
+
+.hero-quote {
+    font-size: 1.25rem;
+    color: var(--clr-blue);
+    font-weight: bold;
+}
+
+.hero-info {
+    max-width: 18rem;
+    line-height: 1.25rem;
+    font-size: 0.95rem;
+    color: var(--clr-gray-2);
+}
+
+.hero-tag-line {
+    font-size: 2rem;
+    max-width: 18rem;
+    font-weight: bold;
+}
+
+.w-min {
+    width: min-content;
+}
+
+
+@media (max-width: 35em) {
+    .hero-tag-line {
+        width: initial;
+    }
+
+
+    .hero-quote,
+    .hero-tag-line,
+    .hero-info {
+        margin-left: 1rem;
+    }
+
+    .hero-tag-line {
+        font-size: 1.5rem;
+    }
+
+}
